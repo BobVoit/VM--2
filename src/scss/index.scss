@@ -1,0 +1,98 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.wrapper {
+    margin: 10rem 2rem 0;
+    // height: 50rem;
+    padding: 1rem 3rem;
+}
+
+.elements {
+    padding: 2rem 8rem;
+    border: .2rem solid #000;
+    border-radius: .5rem;
+}
+
+.wrapper__button {
+    margin-top: 2rem;
+}
+
+.field {
+    padding: .2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.field__input {
+    font-size: 2rem;
+    border-radius: .5rem;
+    width: 50rem;
+}
+
+.field_label-name {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+
+.button {
+
+}
+
+.button__click {
+    font-size: 1.6rem;    
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border: 3px solid #000;
+    border-radius: .5rem;
+
+    transition: all .2s linear;
+    &:hover {
+        background-color: #d3d3d3;
+    }
+
+    &:active {
+        background-color: #615f5f;
+        border-right: .8rem;
+        border-bottom: .8rem;
+    }
+}
+
+.result {
+    margin-top: 1rem;
+}
+
+.result__item {
+    font-size: 1.5rem;
+    border: .2rem solid #414141;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 0.5rem;
+}
+
+.result__label {
+    font-weight: 700;
+}
+
+.result__value {
+
+}
+
+.result__value-item {
+   margin-left: 1rem; 
+}
+
+.result__lagrange {
+    
+}
+
+.result__chart {
+    height: 500px;
+}
